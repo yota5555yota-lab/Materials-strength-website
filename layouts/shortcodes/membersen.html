@@ -1,0 +1,43 @@
+<h2>Teachers</h2>
+<div class="faculty">
+{{ range site.Data.membersen.faculty }}
+  <div class="card faculty-card">
+    {{ if .image }}
+      <img src="/images/{{ .image }}" alt="{{ .name }}">
+    {{ end }}
+    <div class="name">{{ .name }}</div>
+    <div class="role">{{ .role }}</div>
+  </div>
+{{ end }}
+</div>
+
+<h2>Student</h2>
+
+{{ $order := slice "M2" "M1" "B4" "B3" }}
+
+{{ range $order }}
+  <h3>{{ . }}</h3>
+  <div class="students">
+  {{ range index site.Data.membersen.students . }}
+    <div class="card student-card">
+      {{ if .image }}
+        <img src="/images/{{ .image }}" alt="{{ .name }}">
+      {{ end }}
+      <div class="name">{{ .name }}</div>
+    </div>
+  {{ end }}
+  </div>
+{{ end }}
+
+<h2>Graduates</h2>
+
+{{ range $year, $membersen := site.Data.membersen.alumni }}
+  <details class="alumni">
+    <summary>{{ $year }}</summary>
+    <ul>
+      {{ range $membersen }}
+        <li>{{ .name }}</li>
+      {{ end }}
+    </ul>
+  </details>
+{{ end }}

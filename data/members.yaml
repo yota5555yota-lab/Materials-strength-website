@@ -1,0 +1,58 @@
+faculty:
+  - name: 薦田 亮介
+    role: 助教授
+    image: "members/test.png"
+
+students:
+  M2:
+    - name: 枝吉 怜奈
+      image: "members/test.png"
+    - name: 大塚 碧人
+      image: "members/test.png"
+    - name: 後藤 大知
+      image: "members/test.png"
+    - name: 田畑 佑梨
+      image: "members/test.png"
+
+  M1:
+    - name: 上堀内 俊哉
+      image: "members/test.png"
+    - name: 工藤 澪士
+      image: "members/test.png"
+    - name: 松尾 陽太
+      image: "members/test.png"
+    - name: 村川 太一
+      image: "members/test.png"
+
+  B4:
+    - name: 菊池 隆介
+      image: "members/test.png"
+    - name: 菊池 涼亮
+      image: "members/test.png"
+    - name: 園田 光
+      image: "members/test.png"
+    - name: 高山 翔瑛
+      image: "members/test.png"
+    - name: 松永 数丸
+      image: "members/test.png"
+    - name: 松本なつみ
+      image: "members/test.png"
+
+  B3:
+    - name: 学生A
+      image: "members/test.png"
+
+alumni:
+  "2026年度卒":
+    - name: 荒木 滉大
+    - name: 臼井 健
+    - name: 羽祢田 明夢
+    - name: 松尾 怜奈
+    - name: 宇野 太逸
+    - name: 田浦 昂樹
+
+  "2025年度卒":
+    - name: 菅 菜穂
+
+  "2024年度卒":
+    - name: 
