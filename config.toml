@@ -1,4 +1,4 @@
-baseURL = "https://yota5555yota-lab.github.io/Materials-strength-website/"
+baseURL = 'https://yota5555yota-lab.github.io/Materials-strength-website/'
 title = '材料強度学研究室'
 
 theme = "PaperMod"
