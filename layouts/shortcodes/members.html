@@ -3,7 +3,7 @@
 {{ range site.Data.members.faculty }}
   <div class="card faculty-card">
     {{ if .image }}
-      <img src="/images/{{ .image }}" alt="{{ .name }}">
+      <img src="{{ .image | relURL }}" alt="{{ .name }}">
     {{ end }}
     <div class="name">{{ .name }}</div>
     <div class="role">{{ .role }}</div>
@@ -21,7 +21,7 @@
   {{ range index site.Data.members.students . }}
     <div class="card student-card">
       {{ if .image }}
-        <img src="/images/{{ .image }}" alt="{{ .name }}">
+        <img src="{{ .image | relURL }}" alt="{{ .name }}">
       {{ end }}
       <div class="name">{{ .name }}</div>
     </div>
