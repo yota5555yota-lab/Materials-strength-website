@@ -80,4 +80,6 @@ disableDefaultLanguageRedirect = false
       unsafe = true
 
 [params]
-  label = { text = "材料強度学研究室", icon = "/images/logo.png", iconHeight = 35 }
+  # label = { text = "材料強度学研究室", icon = "/images/logo.png", iconHeight = 35 }
+  label = { text = "材料強度学研究室", icon = "/Materials-strength-website/images/logo.png", iconHeight = 35 }
+
