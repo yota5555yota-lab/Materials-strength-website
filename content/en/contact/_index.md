@@ -20,7 +20,7 @@ If you are interested in our research, please feel free to contact us by email.
 
   <tr>
     <th>Supervisor</th>
-    <td>Prof. Ryosuke Sugeta</td>
+    <td>Associate Professor. Ryosuke Komoda</td>
   </tr>
 
   <tr>

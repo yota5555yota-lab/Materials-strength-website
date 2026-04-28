@@ -20,7 +20,7 @@ draft: false
 
   <tr>
     <th>指導教員</th>
-    <td>薦田 亮介　教授</td>
+    <td>薦田 亮介　准教授</td>
   </tr>
 
   <tr>
