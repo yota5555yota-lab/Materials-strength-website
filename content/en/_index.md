@@ -3,10 +3,10 @@ title: "Materials Strength Laboratory"
 ---
 
 <div class="hero-slider">
-  <img src="/images/slide1.png" class="slide active">
-  <img src="/images/slide2.png" class="slide">
-  <img src="/images/slide3.png" class="slide">
-  <img src="/images/slide4.png" class="slide">
+  <img src="{{ "images/slide1.png" | relURL }}" class="slide active">
+  <img src="{{ "images/slide2.png" | relURL }}" class="slide">
+  <img src="{{ "images/slide3.png" | relURL }}" class="slide">
+  <img src="{{ "images/slide4.png" | relURL }}" class="slide">
 </div>
 
 
@@ -57,3 +57,5 @@ Find our location and directions
 For inquiries about joining the lab or collaboration opportunities
 
 [Contact Us](./contact/)
+
+<script src="{{ "js/slider.js" | relURL }}"></script>
