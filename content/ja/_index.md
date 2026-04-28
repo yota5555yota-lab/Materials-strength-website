@@ -9,8 +9,6 @@ title: "材料強度学研究室"
   <img src="/images/slide4.png" class="slide">
 </div>
 
-<img src="/images/slide1.png" class="slide active">
-
 ---
 
 ## 研究室について
