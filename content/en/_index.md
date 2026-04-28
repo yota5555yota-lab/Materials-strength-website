@@ -3,10 +3,10 @@ title: "Materials Strength Laboratory"
 ---
 
 <div class="hero-slider">
-  <img src="/images/slide1.png" class="slide active">
-  <img src="/images/slide2.png" class="slide">
-  <img src="/images/slide3.png" class="slide">
-  <img src="/images/slide4.png" class="slide">
+  <img src="/Materials-strength-website/images/slide1.png" class="slide active">
+  <img src="/Materials-strength-website/images/slide2.png" class="slide">
+  <img src="/Materials-strength-website/images/slide3.png" class="slide">
+  <img src="/Materials-strength-website/images/slide4.png" class="slide">
 </div>
 
 
