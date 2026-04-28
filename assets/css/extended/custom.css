@@ -103,7 +103,7 @@ body::before {
   height: 100%;
   background-image: url('/Materials-strength-website/images/bg1.png');
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.6;
   z-index: -1;
 }
 
