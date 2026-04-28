@@ -43,6 +43,13 @@ students:
       image: "/Materials-strength-website/images/members/test.png"
 
 alumni:
+  "就職先一覧":
+    - name: 三菱重工
+    - name: 三菱ケミカル
+    - name: 日本製鉄PME
+    - name: 日鉄エンジニアリング
+    - name: グローリー
+
   "2026年度卒":
     - name: 荒木 滉大
     - name: 臼井 健
