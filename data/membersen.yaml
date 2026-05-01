@@ -43,12 +43,13 @@ students:
       image: "/Materials-strength-website/images/members/test.png"
 
 alumni:
-  "就職先一覧":
-    - name: 三菱重工
-    - name: 三菱ケミカル
-    - name: 日本製鉄PME
-    - name: 日鉄エンジニアリング
-    - name: グローリー
+  "Career Destinations":
+    - name: Mitsubishi Heavy Industries
+    - name: Mitsubishi Chemical
+    - name: Nippon Steel PME
+    - name: Nippon Steel Engineering
+    - name: Glory Ltd.
+    - name: Minebea AccessSolutions
     
   "Graduated in 2026":
     - name: Kodai Araki
