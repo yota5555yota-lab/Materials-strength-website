@@ -31,13 +31,18 @@
 
 <h2>卒業生</h2>
 
-{{ range $year, $members := site.Data.members.alumni }}
-  <details class="alumni">
-    <summary>{{ $year }}</summary>
-    <ul>
-      {{ range $members }}
-        <li>{{ .name }}</li>
-      {{ end }}
-    </ul>
-  </details>
+{{ $order := slice "就職先一覧" "2026年度卒" "2025年度卒" "2024年度卒" }}
+
+{{ range $order }}
+  {{ $members := index site.Data.members.alumni . }}
+  {{ if $members }}
+    <details class="alumni">
+      <summary>{{ . }}</summary>
+      <ul>
+        {{ range $members }}
+          <li>{{ .name }}</li>
+        {{ end }}
+      </ul>
+    </details>
+  {{ end }}
 {{ end }}
