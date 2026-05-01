@@ -3,10 +3,10 @@ title: "材料強度学研究室"
 ---
 
 <div class="hero-slider">
-  <img src="/Materials-strength-website/images/slide1.png" class="slide active">
-  <img src="/Materials-strength-website/images/slide2.png" class="slide">
-  <img src="/Materials-strength-website/images/slide3.png" class="slide">
-  <img src="/Materials-strength-website/images/slide4.png" class="slide">
+  <img src="/Materials-strength-website/images/slide_1.png" class="slide active">
+  <img src="/Materials-strength-website/images/slide_2.png" class="slide">
+  <img src="/Materials-strength-website/images/slide_3.png" class="slide">
+  <img src="/Materials-strength-website/images/slide_4.png" class="slide">
 </div>
 
 ---
