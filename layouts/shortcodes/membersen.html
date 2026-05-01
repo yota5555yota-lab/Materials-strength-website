@@ -31,13 +31,18 @@
 
 <h2>Graduates</h2>
 
-{{ range $year, $membersen := site.Data.membersen.alumni }}
-  <details class="alumni">
-    <summary>{{ $year }}</summary>
-    <ul>
-      {{ range $membersen }}
-        <li>{{ .name }}</li>
-      {{ end }}
-    </ul>
-  </details>
+{{ $order := slice "Career Destinations" "Class of 2024" "Class of 2025" "Class of 2026" }}
+
+{{ range $order }}
+  {{ $members := index site.Data.members.alumni . }}
+  {{ if $members }}
+    <details class="alumni">
+      <summary>{{ . }}</summary>
+      <ul>
+        {{ range $members }}
+          <li>{{ .name }}</li>
+        {{ end }}
+      </ul>
+    </details>
+  {{ end }}
 {{ end }}
