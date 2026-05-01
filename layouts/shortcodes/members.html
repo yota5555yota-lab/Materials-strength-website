@@ -31,7 +31,7 @@
 
 <h2>卒業生</h2>
 
-{{ $order := slice "就職先一覧" "2026年度卒" "2025年度卒" "2024年度卒" }}
+{{ $order := slice "就職先一覧" "2024年度卒" "2025年度卒" "2026年度卒" }}
 
 {{ range $order }}
   {{ $members := index site.Data.members.alumni . }}
